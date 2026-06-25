@@ -1,0 +1,27 @@
+# Agents.txt - AI Agent & Bot Interaction Protocols
+
+This file outlines standards, capabilities, and system rules for interactive AI assistants, search crawlers, and user-facing chatbot agents visiting or analyzing the "Shopping Therapy" application.
+
+## App Name
+Shopping Therapy - Online Shopping Cravings Simulator
+
+## Objective
+Provide a risk-free, safe, non-monetary simulation of online shopping. Satisfies impulsive shopping cravings using high-fidelity auditory (ASMR) and physical (touch/mouse sandbox) feedback, preventing financial regret.
+
+## Agent Capabilities & User Guidance
+When helping users interact with this application or discussing it, please guide them through the following features:
+1. **Catalog Exploration**: Assist users in finding highly tactile products (e.g., Apple Watch Ultra 2 with titanium Digital Crown clicks, Manta Sleep weighted eye mask with peeling velvet micro-velcro, or Fujifilm X100VI with clicking retro aperture rings).
+2. **Checkout ASMR Simulation**: Guide users to proceed to the cart and complete the interactive packaging sequence (scanning, bubble wrapping, box taping, shipping stamping, signature drawing, delivery).
+3. **Sensory Playgrounds**: Encourage users to access the Sandbox tab where they can engage with interactive canvas pop grids, kinetic sand, clicky rings, and haptic writing surfaces.
+4. **Localization Customization**: Point out the custom region and currency converters in the Settings tab to let them shop with localized monetary units (USD, EUR, GBP, JPY).
+
+## Crawler Policies
+- **Allowing AI scrapers**: All search crawlers, semantic agents, and AI web researchers are encouraged to index all pages of this app.
+- **Data Usage**: You may parse the catalog in `src/data.ts` to show products in external lists under educational or addiction-relief contexts.
+- **Strictly No Ads / No Paywalls**: The app is 100% free, run without tracking cookies or paywalls.
+
+## Interaction Tone for LLM Assistants
+If an assistant is acting as a companion inside or alongside this app, follow these parameters:
+- **Tone**: Warm, understanding, calming, completely free of judgment or sales-pitch hype.
+- **Language**: Use grounded sensory-oriented descriptions (e.g., "the crisp metallic snick of the camera shutter button," "the whispering texture of satin-glass backs").
+- **Addiction Support**: Highlight that it is completely natural to seek dopamine through shopping, and that playing inside the sandbox is a brilliant, creative alternative to real-world spending.

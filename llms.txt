@@ -1,0 +1,41 @@
+# Shopping Therapy - Fake Online Shopping & Retail Urge Simulator
+
+An immersive, scientifically calibrated digital outlet designed to help individuals overcome online shopping cravings, spend zero real money, and safely satiate retail-driven dopamine search-reward loops.
+
+## Metadata
+- **Project Name**: Shopping Therapy
+- **Tagline**: Satisfy retail cravings without the buyer's remorse
+- **Primary Domain**: Web Application (Single-Screen Immersive Simulator)
+- **Target Audience**: Impulse buyers, retail-addicted shoppers, ASMR enthusiasts, and users looking to practice budget management or screen-detox.
+
+## Core Philosophy & Cognitive Design
+Online shopping triggers high levels of dopamine anticipation during the browsing, comparing, and checkout steps. Shopping Therapy simulates these exact psychological milestones:
+1. **The Hunt**: High-fidelity product lists spanning multiple categories (Electronics, Relaxation, Cosmetics, Hobbies, Toys) with rich descriptions focusing on tactile physical details (brushed titanium, clicky buttons, cold gold glass, velvety matte silicone).
+2. **The Acquisition**: A fully simulated shopping cart with region-specific currencies and real-time checkout computations.
+3. **The Sensory Packaging & Checkout**:
+   - **Scanning**: Touch-sensitive laser barcodes with high-frequency pitch sweep beeps.
+   - **Wrapping**: Multiple sheets of interactive bubble wrap cushion that pop on touch with high-fidelity, pressure-sensitive ASMR pops.
+   - **Taping**: Heavy friction duct tape dispensers with adjustable speed sound pitches.
+   - **Stamping & Labels**: Drag-to-stamp fragile labels with satisfying heavy ink stamps.
+   - **Signing**: Canvas-based custom finger/mouse signature writing.
+   - **Dispatching**: High-fidelity delivery animations.
+4. **The Sandbox Play**: After "checking out" (always 100% free), users can open their box and play in highly interactive tactile ASMR sensory soundscapes (such as kinetic sand, metal clicking rings, micro-velcro peeling, and stylus handwriting).
+
+## Technical Architecture
+- **Framework**: React 18+ with TypeScript
+- **Bundler**: Vite
+- **Styling**: Tailwind CSS (Utility-first)
+- **Animation**: Motion (`motion/react` with spring physics and staggered entering animations)
+- **Audio System**: Web Audio API-synthesized sound effect presets (clinks, mechanical clicks, pops, laser beeps, paper rustling, adhesive scraping, physical slider friction) to ensure zero network latency and perfect synchronization.
+- **State Persistence**: Highly reactive client-side states, local sound options, and region profiles.
+- **Responsive Layout**: Designed with desktop-first precision wrapped in a beautiful, premium, sleek smartphone frame on larger screens for perfect focus, and fluidly adaptive to native mobile views.
+
+## File Map
+- `/index.html` - Primary HTML entry point containing custom SEO tags, OG tags, and author credits.
+- `/metadata.json` - Platform-level application metadata.
+- `/src/main.tsx` - App entry point.
+- `/src/App.tsx` - Fully integrated full-stack single-view app layout containing the modular sections (Storefront HUD, Dynamic Sound Synthesizers, Barcode Scanners, Interactive Bubble Wrap canvases, Box Sealing simulators, Canvas signing plates, and 3D Sensory Sandbox Play).
+- `/src/data.ts` - Comprehensive inventory of high-value trending catalog items optimized with precise sensory details (sound types, tactile profiles, user ratings, and reviews).
+- `/public/llms.txt` - This file.
+- `/public/agents.txt` - Instructions for robotic spider crawlers and AI bots.
+- `/public/robots.txt` - Crawler accessibility constraints.
